@@ -1,0 +1,16 @@
+// ignore_for_file: file_names, camel_case_types
+
+import 'package:w3biblioteca/app/classes/marc_bibliografico/colecoes_localizacao_graficos_alternados_841_88X/proveniencia_dos_metadados_gerados_pelo_computador/indicadores/class_indicadores_proveniencia_dos_metadados_gerados_pelo_computador_883_data.dart';
+import 'package:w3biblioteca/app/classes/marc_bibliografico/colecoes_localizacao_graficos_alternados_841_88X/proveniencia_dos_metadados_gerados_pelo_computador/subcampos/class_subcampos_proveniencia_dos_metadados_gerados_pelo_computador_883_data.dart';
+
+class ClassProvenienciaDosMetadadosGeradosPeloComputador_841_88X_Data {
+  String etiqueta_883;
+  ClassIndicadoresProvenienciaDosMetadadosGeradosPeloComputador_883_Data indicadores_883;
+  ClassSubcamposProvenienciaDosMetadadosGeradosPeloComputador_883_Data subcampos_883;
+
+  ClassProvenienciaDosMetadadosGeradosPeloComputador_841_88X_Data(
+    this.etiqueta_883,
+    this.indicadores_883,
+    this.subcampos_883,
+  );
+}

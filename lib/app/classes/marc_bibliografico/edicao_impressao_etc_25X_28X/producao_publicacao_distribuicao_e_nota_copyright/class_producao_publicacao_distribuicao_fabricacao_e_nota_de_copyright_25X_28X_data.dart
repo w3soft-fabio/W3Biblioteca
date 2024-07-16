@@ -1,0 +1,16 @@
+// ignore_for_file: file_names, camel_case_types
+
+import 'package:w3biblioteca/app/classes/marc_bibliografico/edicao_impressao_etc_25X_28X/producao_publicacao_distribuicao_e_nota_copyright/indicadores/class_producao_publicacao_distribuicao_fabricacao_e_nota_de_copyright_264_data.dart';
+import 'package:w3biblioteca/app/classes/marc_bibliografico/edicao_impressao_etc_25X_28X/producao_publicacao_distribuicao_e_nota_copyright/subcampos/class_subcampos_producao_publicacao_distribuicao_fabricacao_e_nota_copyright_264_data.dart';
+
+class ClassProducaoPublicacaoDistribuicaoFabricacaoENotaDeCopyright_25X_28X_Data {
+  String etiqueta_264;
+  ClassIndicadoresProducaoPublicacaoDistribuicaoFabricacaoENotaDeCopyright_264_Data indicadores_264;
+  ClassSubcamposProducaoPublicacaoDistribuicaoFabricacaoENotaCopyright_264_Data subcampos_264;
+
+  ClassProducaoPublicacaoDistribuicaoFabricacaoENotaDeCopyright_25X_28X_Data(
+    this.etiqueta_264,
+    this.indicadores_264,
+    this.subcampos_264,
+  );
+}

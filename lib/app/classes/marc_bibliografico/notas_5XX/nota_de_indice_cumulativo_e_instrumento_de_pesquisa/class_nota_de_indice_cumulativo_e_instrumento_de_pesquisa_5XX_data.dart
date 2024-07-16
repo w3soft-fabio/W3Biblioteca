@@ -1,0 +1,16 @@
+// ignore_for_file: file_names, camel_case_types, prefer_typing_uninitialized_variables
+
+import 'package:w3biblioteca/app/classes/marc_bibliografico/notas_5XX/nota_de_indice_cumulativo_e_instrumento_de_pesquisa/indicadores/class_indicadores_nota_de_indice_cumulativo_e_instrumento_de_pesquisa_555_data.dart';
+import 'package:w3biblioteca/app/classes/marc_bibliografico/notas_5XX/nota_de_indice_cumulativo_e_instrumento_de_pesquisa/subcampos/class_subcampos_nota_de_indice_cumulativo_e_instrumento_de_pesquisa_555_data.dart';
+
+class ClassNotaDeIndiceCumulativoEInstrumentoDePesquisa_5XX_Data {
+  String etiqueta_555;
+  ClassIndicadoresNotaDeIndiceCumulativoEInstrumentoDePesquisa_555_Data indicadores_555;
+  ClassSubcamposNotaDeIndiceCumulativoEInstrumentoDePesquisa_555_Data subcampos_555;
+
+  ClassNotaDeIndiceCumulativoEInstrumentoDePesquisa_5XX_Data(
+    this.etiqueta_555,
+    this.indicadores_555,
+    this.subcampos_555,
+  );
+}

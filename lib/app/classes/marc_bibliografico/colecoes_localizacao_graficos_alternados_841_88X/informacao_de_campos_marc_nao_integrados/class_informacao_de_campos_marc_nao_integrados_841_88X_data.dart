@@ -1,0 +1,16 @@
+// ignore_for_file: camel_case_types, file_names
+
+import 'package:w3biblioteca/app/classes/marc_bibliografico/colecoes_localizacao_graficos_alternados_841_88X/informacao_de_campos_marc_nao_integrados/indicadores/class_indicadores_informacao_de_campos_marc_nao_integrados_886_data.dart';
+import 'package:w3biblioteca/app/classes/marc_bibliografico/colecoes_localizacao_graficos_alternados_841_88X/informacao_de_campos_marc_nao_integrados/subcampos/class_subcampos_informacao_de_campos_marc_nao_integrados_886_data.dart';
+
+class ClassInformacaoDeCamposMarcNaoIntegrados_841_88X_Data {
+  String etiqueta_886;
+  ClassIndicadoresInformacaoDeCamposMarcNaoIntegrados_886_Data indicadores_886;
+  ClassSubcamposInformacaoDeCamposMarcNaoIntegrados_886_Data subcampos_886;
+
+  ClassInformacaoDeCamposMarcNaoIntegrados_841_88X_Data(
+    this.etiqueta_886,
+    this.indicadores_886,
+    this.subcampos_886,
+  );
+}

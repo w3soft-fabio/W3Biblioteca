@@ -1,0 +1,16 @@
+// ignore_for_file: file_names, camel_case_types
+
+import 'package:w3biblioteca/app/classes/marc_bibliografico/campos_de_numeros_e_codigos_02X_09X/numero_adicional_da_classificacao_decimal_dewey/indicadores/class_indicadores_numero_adicional_da_classificacao_decimal_dewey_083_data.dart';
+import 'package:w3biblioteca/app/classes/marc_bibliografico/campos_de_numeros_e_codigos_02X_09X/numero_adicional_da_classificacao_decimal_dewey/subcampos/class_subcampos_numero_adicional_da_classificacao_decimal_dewey_083_data.dart';
+
+class ClassNumeroAdicionalDaClassificacaDecimalDewey_02X_09X_Data {
+  String etiqueta_083;
+  ClassIndicadoresNumeroAdicionalDaClassificacaoDecimalDewey_083_Data indicadores_083;
+  ClassSubcamposNumeroAdicionalDaClassificacaoDecimalDewey_083_Data subcampos_083;
+
+  ClassNumeroAdicionalDaClassificacaDecimalDewey_02X_09X_Data(
+    this.etiqueta_083,
+    this.indicadores_083,
+    this.subcampos_083,
+  );
+}

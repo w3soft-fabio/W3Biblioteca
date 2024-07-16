@@ -1,0 +1,16 @@
+// ignore_for_file: file_names, camel_case_types
+
+import 'package:w3biblioteca/app/classes/marc_bibliografico/titulo_e_titulo_relacionado_20x_24X/titulo_traduzido_pela_instituicao_catalogadora/indicadores/class_indicadores_titulo_traduzido_pela_instituicao_catalogadora_242_data.dart';
+import 'package:w3biblioteca/app/classes/marc_bibliografico/titulo_e_titulo_relacionado_20x_24X/titulo_traduzido_pela_instituicao_catalogadora/subcampos/class_subcampos_titulo_traduzido_pela_instituicao_catalogadora_242_data.dart';
+
+class ClassTituloTraduzidoPelaInstituicaoCatalogadora_20X_24X_Data {
+  String etiqueta_242;
+  ClassIndicadoresTituloTraduzidoPelaInstituicaoCatalogadora_242_Data indicadores_242;
+  ClassSubcamposTituloTraduzidoPelaInstituicaoCatalogadora_242_Data subcampos_242;
+
+  ClassTituloTraduzidoPelaInstituicaoCatalogadora_20X_24X_Data(
+    this.etiqueta_242,
+    this.indicadores_242,
+    this.subcampos_242,
+  );
+}

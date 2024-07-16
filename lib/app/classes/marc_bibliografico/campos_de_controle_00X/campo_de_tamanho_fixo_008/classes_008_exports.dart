@@ -1,0 +1,8 @@
+export 'package:w3biblioteca/app/classes/marc_bibliografico/campos_de_controle_00X/campo_de_tamanho_fixo_008/livros/class_livros_008_data.dart';
+export 'package:w3biblioteca/app/classes/marc_bibliografico/campos_de_controle_00X/campo_de_tamanho_fixo_008/mapas/class_mapas_008_data.dart';
+export 'package:w3biblioteca/app/classes/marc_bibliografico/campos_de_controle_00X/campo_de_tamanho_fixo_008/material_misto/class_material_misto_008_data.dart';
+export 'package:w3biblioteca/app/classes/marc_bibliografico/campos_de_controle_00X/campo_de_tamanho_fixo_008/material_visual/class_material_visual_008_data.dart';
+export 'package:w3biblioteca/app/classes/marc_bibliografico/campos_de_controle_00X/campo_de_tamanho_fixo_008/musica/class_musica_008_data.dart';
+export 'package:w3biblioteca/app/classes/marc_bibliografico/campos_de_controle_00X/campo_de_tamanho_fixo_008/recurso_continuo/class_recurso_continuo_008_data.dart';
+export 'package:w3biblioteca/app/classes/marc_bibliografico/campos_de_controle_00X/campo_de_tamanho_fixo_008/todos_os_materiais/class_todos_os_materiais_008_data.dart';
+export 'package:w3biblioteca/app/classes/marc_bibliografico/campos_de_controle_00X/campo_de_tamanho_fixo_008/arquivo_de_computador/class_arquivo_de_computador_008_data.dart';

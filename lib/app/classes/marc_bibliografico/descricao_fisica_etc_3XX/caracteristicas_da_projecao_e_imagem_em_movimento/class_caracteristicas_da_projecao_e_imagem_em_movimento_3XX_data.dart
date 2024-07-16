@@ -1,0 +1,16 @@
+// ignore_for_file: file_names, camel_case_types
+
+import 'package:w3biblioteca/app/classes/marc_bibliografico/descricao_fisica_etc_3XX/caracteristicas_da_projecao_e_imagem_em_movimento/indicadores/class_indicadores_caracteristicas_da_projecao_e_imagem_em_movimento_345_data.dart';
+import 'package:w3biblioteca/app/classes/marc_bibliografico/descricao_fisica_etc_3XX/caracteristicas_da_projecao_e_imagem_em_movimento/subcampos/class_subcampos_caracteristicas_da_projecao_e_imagem_em_movimento_345_data.dart';
+
+class ClassCaracteristicasDaProjecaoEImagemEmMovimento_3XX_Data {
+  String etiqueta_345;
+  ClassIndicadoresCaracteristicasDaProjecaoEImagemEmMovimento_345_Data indicadore_345;
+  ClassSubcamposCaracteristicasDaProjecaoEImagemEmMovimento_345_Data subcampos_345;
+
+  ClassCaracteristicasDaProjecaoEImagemEmMovimento_3XX_Data(
+    this.etiqueta_345,
+    this.indicadore_345,
+    this.subcampos_345,
+  );
+}

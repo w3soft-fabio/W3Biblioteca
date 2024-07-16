@@ -1,0 +1,16 @@
+// ignore_for_file: file_names, camel_case_types
+
+import 'package:w3biblioteca/app/classes/marc_bibliografico/entrada_secundaria_70X_75X/detalhes_do_sistema_para_arquivos_de_computador/indicadores/class_indicadores_detalhes_do_sistema_para_arquivos_de_computador_753_data.dart';
+import 'package:w3biblioteca/app/classes/marc_bibliografico/entrada_secundaria_70X_75X/detalhes_do_sistema_para_arquivos_de_computador/subcampos/class_subcampos_detalhes_do_sistema_para_arquivos_de_computador_753_data.dart';
+
+class ClassDetalhesDoSistemaParaArquivosDeComputador_70X_75X_Data {
+  String etiqueta_753;
+  ClassIndicadoresDetalhesDoSistemaParaArquivosDeComputador_753_Data indicadores_753;
+  ClassSubcamposDetalhesDoSistemaParaArquivosDeComputador_753_Data subcampos_753;
+
+  ClassDetalhesDoSistemaParaArquivosDeComputador_70X_75X_Data(
+    this.etiqueta_753,
+    this.indicadores_753,
+    this.subcampos_753,
+  );
+}
